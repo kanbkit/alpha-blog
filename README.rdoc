@@ -1,3 +1,4 @@
 == README
 My alphal-blog
 Version 0.0.0 :20160422-223500
+publish lai app
