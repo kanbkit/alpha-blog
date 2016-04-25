@@ -7,22 +7,6 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <p>
-  <table>
-  <tr>
-    <td>
-      <%= link_to 'Home', root_path %>  
-    </td>
-    <td>
-      <%= link_to 'Alpha Blog', root_path %>  
-    </td>
-    <td>
-      <%= link_to 'About', about_path %>  
-    </td>
-  </tr>  
-  </table>
-  </p>
-  
   <%= render 'layouts/navigation' %>
   <%= render 'layouts/messages' %>
   <!--<% flash.each do |name, msg| %>-->
